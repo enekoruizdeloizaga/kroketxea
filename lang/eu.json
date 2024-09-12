@@ -1,0 +1,30 @@
+{
+    "titGu": "Gu",
+    "gu1": "Basque Culinary Center-en ikasi eta formatu ondoren eta munduko hainbat sukaldetan lanean aritu ostean, etxera itzuli gara eskuz egindako artisau kroketak zuei eskaintzeko.",
+    "gu2": "Emaitzaz harro sentiarazten gaituzten kalitatezko kroketak lortzeko lanean murgilduta egon ondoren, gaur Kroketxea aurkezten dizuegu, non kalitatezko produktu bat eskaintzen dugun, bai partikularrentzat, baita jatetxe zein ekitaldietarako ere.",
+    "eta": "eta",
+    "titKroketak": "Kroketak",
+    "subKroketak": "Hemen dituzu eskuragarri ditugun kroketa batzuk. Gehiago ikusteko, gure menua kontsultatu dezakezu.",
+    "btnKroketak": "Kroketa guztiak",
+    "titFrijitu": "Nola Frijitu",
+    "subFrijitu": "Atal honetan gure kroketak nola frijitu behar diren azaltzen dugu, ahalik eta hoberen prestatzeko.",
+    "itemFrikitu": {
+      "titDesizoztu": "Desizoztu",
+      "subDesizoztu": "Giro tenperaturan 3-4 orduz edo hozkailuan 8-10 orduz.",
+      "titFrijitu": "Frijitu",
+      "subFrijitu": "180ºC (olio asko bota kroketa estaliz)",
+      "titPaus": "Pausatzen utzi",
+      "subPaus": "Paper xurgatzailearen gainean 2-3 minutuz",
+      "titJan": "Jan",
+      "subJan": "Orain pausurik garrantziutsuena: jan eta gozatu!"
+    },
+    "titEskaindu": "Zer eskaintzen dugu?",
+    "titPar": "Partikularrak",
+    "subPar": "Aurrez eskatu gabeko salmenta Donostiako Pokopandegi 24ko lantegian edo gure saltoki puntuetan.",
+    "titPro": "Profesionalak",
+    "subPro": "Horeca sektoreko edo profesionala bazara eta gurekin hitz egin nahi baduzu, jar zaitez gurekin harremanetan posta elektronikoaren edo telefono zenbakiaren bidez, kontaktuko atalean.",
+    "titEskatu": "Eskatu",
+    "subEskatu": "Kroketak eskatu non eta nahi duzunean. Mezu bat bidali mugikorrera edo gure donostiko lokalera hurbildu zure kroketak eskatzeko.",
+    "footerKontaktu": "Kontaktua",
+    "footerEtxea": "Gure etxea"
+  }

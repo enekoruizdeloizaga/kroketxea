@@ -1,0 +1,30 @@
+{
+  "titGu": "Nosotros",
+  "gu1": "Somos Iñaki y Xabat, cocineros formados en el Basque Culinary Center que, tras años viajando por diversas cocinas del mundo, volvemos a casa para poner encima de la mesa estas croquetas caseras hechas a mano.",
+  "gu2": "Tras tiempo trabajando para conseguir una croqueta de calidad de la que sentirnos orgullosos, lanzamos Kroketxea, donde elaboramos un producto de calidad tanto para particulares como para restaurantes o eventos.",
+  "eta": "y",
+  "titKroketak": "Croquetas",
+  "subKroketak": "Una selección de nuestras croquetas favoritas. Puedes consultar más en nuestra carta.",
+  "btnKroketak": "Ver carta",
+  "titFrijitu": "Cocinalas así"  ,
+  "subFrijitu": "Os dejamos una guía para cocinar nuestras croquetas de la mejor manera posible.",
+  "itemFrikitu": {
+    "titDesizoztu": "Descongelar",
+    "subDesizoztu": "Temperatura ambiente 3-4 horas o frigorífico 8-10 horas",
+    "titFrijitu": "Freir",
+    "subFrijitu": "Con fuego a 180º con aceite abundante y muy caliente",
+    "titPaus": "Reposar",
+    "subPaus": "Sobre papel absorbente 2-3 minutos",
+    "titJan": "Disfrutar",
+    "subJan": "Ahora el paso más importante, ¡comer y disfurtarlo!"
+  },
+  "titEskaindu": "¿Qué ofrecemos?",
+  "titPar": "Particulares",
+  "subPar": "Venta directa sin previo pedido en el obrador de Pokopandegi 24, Donostia, o en nuestros puntos de venta.",
+  "titPro": "Profesionales",
+  "subPro": "Si eres del sector Horeca o profesional y quieres hablar con nosotros, ponte en contacto mediante el email o número de teléfono en el apartado de contacto.",
+  "titEskatu": "Pedir",
+  "subEskatu": "Prueba nuestras croquetas cuando quieras. Puedes acercarte a nuestro local o pedirlas a través de nuestro teléfono.",
+  "footerKontaktu": "Contacto",
+  "footerEtxea": "Nuestra casa"
+}
