@@ -106,7 +106,7 @@
 
   <!-- Gu -->
   <div id="gu" class="px-10 max-w-7xl mx-auto pb-24">
-    <div class="sm:max-w-7xl sm:-ml-36 ml-0 mt-10 rotate-[180deg] bg-gradient-to-r from-[#fdba74] dark:from-[#7c2d12] to-[#334ba94d] dark:to-[#334ba94d] w-full shrink-0 absolute blur-[200px] rounded-full h-56 md:h-80 lg:h-96"></div>
+    <div class="hidden sm:block sm:max-w-7xl sm:-ml-36 ml-0 mt-10 rotate-[180deg] bg-gradient-to-r from-[#fdba74] dark:from-[#7c2d12] to-[#334ba94d] dark:to-[#334ba94d] w-full shrink-0 absolute blur-[200px] rounded-full h-56 md:h-80 lg:h-96"></div>
     <div class="flex flex-col py-10">
       <div class="flex flex-col sm:flex-row gap-12 w-full bg-slate-50/90 p-8 dark:border dark:border-slate-800 dark:bg-slate-900/75 rounded-xl z-10 items-center">
         <div class="flex justify-center pb-8">
@@ -224,7 +224,7 @@
     <div class="flex flex-col gap-3 text-center">
       <h1 class="text-5xl sm:text-6xl font-bold z-10">{{ $t('titEskaindu') }}</h1>
     </div>
-    <div id="stardust" class="max-w-7xl mt-10 rotate-[170deg] bg-gradient-to-r from-[#ffedd5] dark:from-[#7c2d12] to-[#ffedd5] dark:to-[#334ba94d] w-full shrink-0 absolute blur-[300px] rounded-full h-56 md:h-96 lg:h-96"></div>
+    <div id="stardust" class="hidden sm:block max-w-7xl mt-10 rotate-[170deg] bg-gradient-to-r from-[#ffedd5] dark:from-[#7c2d12] to-[#ffedd5] dark:to-[#334ba94d] w-full shrink-0 absolute blur-[300px] rounded-full h-56 md:h-96 lg:h-96"></div>
     <div class="flex flex-col sm:flex-row gap-10 sm:gap-20 items-center py-10">
       <div class="flex flex-col gap-2 sm:w-1/2 bg-slate-50/80 p-8 dark:border dark:border-slate-800 dark:bg-slate-900/75 rounded-xl z-10 min-h-56">
         <div>
