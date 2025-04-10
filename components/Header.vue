@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  // const locales = ['EU', 'ES']
 
   const { locales, setLocale } = useI18n()
 
@@ -35,7 +34,7 @@
         <ULink to="#kroketak">{{ $t('titKroketak') }}</ULink>
         <ULink to="#nola-frijitu">{{ $t('titFrijitu') }}</ULink>
         <ULink to="#eskaindu">{{ $t('titEskaindu') }}</ULink>
-        <UButton size="sm" to="whatsapp://send?phone=+34638947316&abid=++34638947316/" :ui="{ rounded: 'rounded-full' }" color="orange">{{ $t('titEskatu') }}</UButton>
+        <ULink to="#eskatu">{{ $t('titEskatu') }}</ULink>
       </div>
       <div class="flex items-center gap-2">
         <div>

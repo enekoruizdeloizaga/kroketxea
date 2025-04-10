@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="z-20 p-6 bg-white drop-shadow dark:border z-10 dark:border-slate-800 dark:bg-slate-900 rounded-xl flex flex-col gap-2">
+  <div class="p-6 bg-white/95 dark:border dark:border-slate-800 dark:bg-slate-900/50 rounded-xl flex flex-col gap-2">
     <UIcon :name="icon" class="text-2xl text-orange-500"></UIcon>
     <div>
       <p class="font-semibold text-xl dark:text-slate-200">

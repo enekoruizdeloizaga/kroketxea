@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     "@nuxt/ui",
     "@nuxt/image",
@@ -8,6 +9,7 @@ export default defineNuxtConfig({
     "nuxt-aos",
     "@nuxtjs/i18n"
   ],
+
   i18n: {
     locales: [
       {
@@ -22,5 +24,7 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: 'lang',
     defaultLocale: 'eu'
-  }
+  },
+
+  compatibilityDate: '2025-04-09'
 })
