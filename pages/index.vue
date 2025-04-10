@@ -159,7 +159,7 @@
     <div class="h-screen flex items-center justify-center sticky blurred-bottom brightness-100 dark:brightness-50 opacity-20 dark:opacity-40 z-0">
       <div class="absolute inset-0 h-full bg-gradient-to-t from-slate-50 dark:from-slate-900"></div>
     </div>
-    <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" class="absolute h-[80vh] w-full flex items-center justify-center z-10 top-20">
+    <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" class="absolute h-[60dvh] w-full flex items-center justify-center z-10 top-20">
       <img src="/img/logo_small.png" width="100 md:150" class="hover:scale-110 transition-transform duration-300" />
     </div>
 
