@@ -128,8 +128,23 @@
     name: 'La Huerta Clandestina',
     location: 'Zaragoza',
     link: 'https://maps.app.goo.gl/76wwfpNrLEbCebUz6'
+  },
+  {
+    name: 'Frutería Angel Andrés',
+    location: 'Antiguo, Donostia',
+    link: 'https://maps.app.goo.gl/F16NHdPcbD23DaWk8'
+  },
+  {
+    name: 'La Fabrika',
+    location: 'Mercado San Martín, Donostia',
+    link: 'https://maps.app.goo.gl/EP92viRfmxZiQeUv7'
+  },
+  {
+    name: 'Alimentación Casa Llorente',
+    location: 'Guardia, Araba',
+    link: 'https://maps.app.goo.gl/hDbMirKWCufjZRdu8'
   }]
-
+  
   definePageMeta({
     colorMode: 'dark',
   })
