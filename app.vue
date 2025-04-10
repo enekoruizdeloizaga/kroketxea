@@ -2,6 +2,13 @@
   definePageMeta({
     colorMode: 'light',
   })
+
+  useSeoMeta({
+    title: 'Kroketxea',
+    ogTitle: 'Kroketxea',
+    description: 'Eskuz egindako kroketak',
+    ogDescription: 'Eskuz egindako kroketak'
+  })
 </script>
 
 <template>

@@ -26,9 +26,9 @@
 <template>
   <header class="fixed top-0 left-0 right-0 w-full z-50 backdrop-blur-lg transition ">
     <div class="w-full h-16 px-10 max-w-7xl mx-auto flex items-center justify-between">
-      <div>
+      <NuxtLink to="/">
         <img src="/img/logo_small.png" width="25"/>
-      </div>
+      </NuxtLink>
       <div class="gap-20 items-center h-full text-xs font-semibold hidden sm:flex">
         <ULink to="#gu">{{ $t('titGu') }}</ULink>
         <ULink to="#kroketak">{{ $t('titKroketak') }}</ULink>
@@ -54,7 +54,7 @@
             }"
           >
             <template #header>
-              <div class="px-6 flex items-center justify-between mx-auto px-1">
+              <div class="px-6 flex items-center justify-between mx-auto">
                 <!-- Logo -->
                 <img src="/img/logo_small.png" width="25"/>
                 <!-- Close button -->

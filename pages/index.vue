@@ -165,7 +165,7 @@
                 :ui="{ size: { md: 'h-28 w-28' } }"
                 class="hover:scale-110 transition-transform duration-300"
               />
-              <div>
+              <div class="text-left">
                 <p class="text-orange-500 text-xl">
                   Iñaki {{ $t('eta') }} Xabat
                 </p>
