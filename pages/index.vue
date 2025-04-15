@@ -85,7 +85,7 @@
     location: 'Donostia',
     link: 'https://maps.app.goo.gl/ojhMJEbNaWxjiypBA'
   }, {
-    name: 'Lamia Kongatuak',
+    name: 'Lamia Konjelatuak',
     location: 'Hernani',
     link: 'https://maps.app.goo.gl/fK9DSLcphqQ5UXm79'
   },
@@ -153,7 +153,7 @@
 
 <template>
 
-  <div class="space-y-16">
+  <div class="space-y-16 overflow-x-hidden">
 
     <!-- Hero -->
     <div class="h-screen flex items-center justify-center sticky blurred-bottom brightness-100 dark:brightness-50 opacity-20 dark:opacity-40 z-0">
@@ -181,10 +181,10 @@
                 class="hover:scale-110 transition-transform duration-300"
               />
               <div class="text-left">
-                <p class="text-orange-500 text-xl">
+                <p class="text-orange-400 text-lg sm:text-xl">
                   Iñaki {{ $t('eta') }} Xabat
                 </p>
-                <p class="text-slate-400 text-md">
+                <p class="text-slate-400 text-sm sm:text-md">
                   Kroketxea
                 </p>
               </div>
@@ -203,7 +203,7 @@
             <p class="sm:text-xl text-slate-400">{{ $t('subKroketak') }}</p>
           </div>
           <div>
-            <UButton size="lg" :ui="{ rounded: 'rounded-full' }" color="orange" variant="solid" class="hover:scale-105 transition-transform duration-300">{{ $t('btnKroketak') }}</UButton>
+            <UButton :to="`/carta/carta_${locale}.pdf`" target="_blank" size="lg" :ui="{ rounded: 'rounded-full' }" color="orange" variant="solid" class="hover:scale-105 transition-transform duration-300">{{ $t('btnKroketak') }}</UButton>
           </div>
         </div>
         <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200" class="w-full md:w-7/12 pt-10 md:px-32">
@@ -297,14 +297,14 @@
       </div>
 
       <div class="flex flex-col sm:flex-row gap-10 sm:gap-20 items-center py-10">
-        <div  class="flex flex-col gap-2 sm:w-1/2 bg-white p-8 dark:border dark:border-slate-800 dark:bg-slate-900/50 rounded-xl z-10 min-h-56 hover:shadow-lg transition-all duration-300">
+        <div  class="hover:scale-105 flex flex-col gap-2 sm:w-1/2 bg-white p-8 dark:border dark:border-slate-800 dark:bg-slate-900/50 rounded-xl z-10 min-h-56 transition-all duration-300">
           <div>
             <UIcon name="i-heroicons-building-storefront" class="text-3xl mb-2 text-orange-500 hover:scale-110 transition-transform duration-300" />
             <p class="font-bold text-xl">{{ $t('titPar') }}</p>
           </div>
           <p class="text-slate-400 text-md">{{ $t('subPar') }}</p>
         </div>
-        <div  data-aos-delay="200" class="flex flex-col gap-2 sm:w-1/2 bg-white p-8 dark:border dark:border-slate-800 dark:bg-slate-900/50 rounded-xl z-10 min-h-56 hover:shadow-lg transition-all duration-300">
+        <div  data-aos-delay="200" class="flex flex-col gap-2 sm:w-1/2 bg-white p-8 dark:border dark:border-slate-800 dark:bg-slate-900/50 rounded-xl z-10 min-h-56 transition-all duration-300 hover:scale-105">
           <div>
             <UIcon name="i-heroicons-briefcase" class="text-3xl mb-2 text-orange-500 hover:scale-110 transition-transform duration-300" />
             <p class="font-bold text-xl">{{ $t('titPro') }}</p>
@@ -315,7 +315,7 @@
       
       <div class="w-full flex text-left flex-col gap-2">
         <div>
-          <UBadge size="lg" color="black">{{ $t('titPuntos') }}</UBadge>
+          <UBadge size="lg" color="orange" variant="soft">{{ $t('titPuntos') }}</UBadge>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-4 border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900/30 rounded-xl z-10">
           <NuxtLink v-for="(item, index) in partners" :to="item.link" no-rel target="_blank" 

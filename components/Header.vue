@@ -10,8 +10,6 @@
     setLocale(val.toLowerCase())
   })
 
-  console.log(selectedLocale.value)
-
   // Menu
   const open = ref(false)
 
@@ -62,11 +60,11 @@
               </div>
             </template>
             <div class="flex flex-col gap-3 px-6 py-4">
-              <UButton icon="i-heroicons-users" color="gray" variant="ghost" to="#gu" @click="open = false">Gu</UButton>
-              <UButton icon="i-heroicons-clipboard" color="gray" variant="ghost" to="#kroketak" @click="open = false">Kroketak</UButton>
-              <UButton icon="i-heroicons-fire" color="gray" variant="ghost" to="#nola-frijitu" @click="open = false">Nola frijitu</UButton>
-              <UButton icon="i-heroicons-building-storefront" color="gray" variant="ghost" to="#eskaindu" @click="open = false">Zer eskaintzen dugu?</UButton>
-              <UButton icon="i-heroicons-chat-bubble-left-right" color="gray" variant="ghost" to="whatsapp://send?phone=+34638947316&abid=++34638947316/" @click="open = false">Eskatu</UButton>
+              <UButton icon="i-heroicons-users" color="gray" variant="ghost" to="#gu" @click="open = false">{{ $t('titGu') }}</UButton>
+              <UButton icon="i-heroicons-clipboard" color="gray" variant="ghost" to="#kroketak" @click="open = false">{{ $t('titKroketak') }}</UButton>
+              <UButton icon="i-heroicons-fire" color="gray" variant="ghost" to="#nola-frijitu" @click="open = false">{{ $t('titFrijitu') }}</UButton>
+              <UButton icon="i-heroicons-building-storefront" color="gray" variant="ghost" to="#eskaindu" @click="open = false">{{ $t('titEskaindu') }}</UButton>
+              <UButton icon="i-heroicons-chat-bubble-left-right" color="gray" variant="ghost" to="#eskatu" @click="open = false">{{ $t('titEskatu') }}</UButton>
               <UDivider class="py-2"></UDivider>
               <div>
                 <UButton variant="ghost" 
