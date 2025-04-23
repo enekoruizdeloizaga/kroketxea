@@ -203,7 +203,7 @@
             <p class="sm:text-xl text-slate-400">{{ $t('subKroketak') }}</p>
           </div>
           <div>
-            <UButton :to="`/carta/carta_${locale}.pdf`" target="_blank" size="lg" :ui="{ rounded: 'rounded-full' }" color="orange" variant="solid" class="hover:scale-105 transition-transform duration-300">{{ $t('btnKroketak') }}</UButton>
+            <UButton :to="`carta.pdf`" target="_blank" size="lg" :ui="{ rounded: 'rounded-full' }" color="orange" variant="solid" class="hover:scale-105 transition-transform duration-300">{{ $t('btnKroketak') }}</UButton>
           </div>
         </div>
         <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="200" class="w-full md:w-7/12 pt-10 md:px-32">
