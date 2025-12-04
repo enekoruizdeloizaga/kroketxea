@@ -12,6 +12,7 @@
 </script>
 
 <template>
+  <Snow />
   <div class="bg-slate-50 dark:bg-slate-950">
     <Header />
       <NuxtPage class="mb-48"/>
